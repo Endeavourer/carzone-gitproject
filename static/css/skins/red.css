@@ -200,7 +200,7 @@
 }
 
 .dashboard-nav{
-    background:#f0151f;
+    background:#FD6F96;
 }
 
 /** Tab box 2 start **/
@@ -341,7 +341,7 @@ input[type=checkbox]:checked + label:before {
 
 .search-button:hover {
     color: #fff;
-    background: #dc141d;
+    background: #FF2442;
 }
 
 .pricing-1 .plan-header .plan-price {

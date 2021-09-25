@@ -888,7 +888,7 @@
 
 
 <!-- Our team start -->
-<div class="our-team content-area bg-grea-3">
+<div class="our-team content-area">
     <div class="container">
         <!-- Main title -->
         <div class="main-title">
@@ -902,7 +902,7 @@
                     <div class="team-1">
                         <div class="photo">
                             <a href="#">
-                                <img src="img/avatar/avatar-12.jpg" alt="team-1" class="img-fluid">
+                                <img src="{% static 'img/avatar/avatar-12.jpg' %}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
                                 <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -920,7 +920,7 @@
                     <div class="team-1">
                         <div class="photo">
                             <a href="#">
-                                <img src="img/avatar/avatar-9.jpg" alt="team-1" class="img-fluid">
+                                <img src="{% static 'img/avatar/avatar-9.jpg' %}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
                                 <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -938,7 +938,7 @@
                     <div class="team-1">
                         <div class="photo">
                             <a href="#">
-                                <img src="img/avatar/avatar-11.jpg" alt="team-1" class="img-fluid">
+                                <img src="{% static 'img/avatar/avatar-11.jpg' %}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
                                 <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -956,7 +956,7 @@
                     <div class="team-1">
                         <div class="photo">
                             <a href="#">
-                                <img src="img/avatar/avatar-10.jpg" alt="team-1" class="img-fluid">
+                                <img src="{% static 'img/avatar/avatar-10.jpg' %}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
                                 <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -974,7 +974,7 @@
                     <div class="team-1">
                         <div class="photo">
                             <a href="#">
-                                <img src="img/avatar/avatar-11.jpg" alt="team-1" class="img-fluid">
+                                <img src="{% static 'img/avatar/avatar-11.jpg' %}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
                                 <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -993,6 +993,8 @@
     </div>
 </div>
 <!-- Our team end -->
+
+
 
 <!-- Intro section start -->
 <div class="intro-section">
@@ -1013,6 +1015,7 @@
 
 
 <!-- Full Page Search -->
+<!--
 <div id="full-page-search">
     <button type="button" class="close">×</button>
     <form action="https://storage.googleapis.com/theme-vessel/carhouse/index.html#" class="search-header">
@@ -1020,7 +1023,8 @@
         <button type="submit" class="btn btn-sm button-theme">Search</button>
     </form>
 </div>
-
+-->
+<!-- Full Page Search end  -->
 <!-- Car Overview Modal -->
 <div class="car-model-2">
     <div class="modal fade" id="carOverviewModal" tabindex="-1" role="dialog" aria-labelledby="carOverviewModalLabel" aria-hidden="true">
