@@ -6,9 +6,9 @@ def cars(request):
     cars = Car.objects.order_by('created_date')
     paginator = Paginator(cars,2)
     page = request.GET.get('page')
-    paged_car = paginator.get_page(page)
+    paged_cars = paginator.get_page(page)
     data = {
-        'cars' : cars,
+        'cars' : paged_cars,
     }
     return render(request, 'cars/cars.html', data)
 
