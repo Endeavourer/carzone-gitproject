@@ -52,8 +52,19 @@
 
 {% endblock %}
 
-
 <!-- Full Page Search -->
+
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="{% url 'search' %}" class="search-header">
+        <input type="search" value="" placeholder="type keyword(s) here. Eg: audi, benz etc" name='keyword'/>
+        <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+</div>
+
+<!-- Full Page Search end  -->
+
+<!-- Full Page Search -
 <div id="full-page-search">
     <button type="button" class="close">×</button>
     <form action="https://storage.googleapis.com/theme-vessel/carhouse/index.html#" class="search-header">
@@ -61,7 +72,7 @@
         <button type="submit" class="btn btn-sm button-theme">Search</button>
     </form>
 </div>
-<!-- Full Page Search end  -->
+ !-Full Page Search end  -->
 
 
 {%include 'includes/footer.html '%}
