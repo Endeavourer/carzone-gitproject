@@ -1,5 +1,14 @@
 # carzone-gitproject
 
+### Carzone:
+ - Implemented HTML/Bootstrap template & Customized Django Admin Panel
+
+ 
+
+ - Used PostgreSQL Database
+
+
+ - provided user authentication and login with Facebook & Google
 ### Installing Django 
 
 Either install from packages by typing these commands in your terminal
